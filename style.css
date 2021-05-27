@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    color: black;
+    background: #eee;
+}
+
+.naming {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    max-width: 100%;
+    height: auto;
+    /* background: chartreuse; */
+}
+
+.naming #title {
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.naming p {
+    font-size: 1.3rem;
+}
+
+
+#img-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    margin: 0 20px;
+    background: white;
+    border-radius: 5px;
+}
+
+#image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+#img-caption {
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+#tribute-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column wrap;  
+    max-width: 100%;
+    height: auto;
+    /* margin: 0 80px;
+    padding: 0 50px; */
+}
+.headline {
+    font-size: 2rem;
+    padding: 20px;
+    margin: 10px 0;
+}
+
+.headline:hover{
+    border-bottom: 1px solid tomato;
+    transition: 1ms ease-in-out;
+}
+
+.sub-headline {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+ul {
+    margin: 0 100px;
+}
+
+ul li{
+    list-style: none;
+    padding: 10px 0;
+    line-height: 1.5;
+    text-align: justify;
+    font-size: 1rem;
+}
+
+blockquote {
+    font-size: 1rem;
+    font-style: italic;
+    padding: 0px 20px;
+    margin: 50px 100px;
+    text-align: center;
+}
+
+.tribute-link {
+    margin: 10px 100px;
+}
+
+a{
+    color: #4394d6;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #06599c;;
+}
+
+@media (max-width: 460px) {
+    .naming #title {
+        font-size: 2.5rem;
+        text-align: center;
+        line-height: 1;
+    }
+
+    .naming p {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    #img-div #img-caption {
+        font-size: 1rem;
+    }
+
+    ul {
+        margin: 0 40px;
+    }
+
+    .headline {
+        text-align: center;
+        font-size: 2.5rem;
+    }
+
+    blockquote {
+        margin: 10px 20px;
+    }
+
+    .tribute-link {
+        margin: 10px 40px;
+        text-align: justify;
+    }
+}
